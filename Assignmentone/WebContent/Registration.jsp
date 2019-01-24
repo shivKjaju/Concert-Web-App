@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
 <title>Register Here</title>
 <script>
 function validateForm() {
@@ -22,19 +23,19 @@ function validateForm() {
 </script>
 </head>
 <body>
-<h2> Registration Page</h2>
+<font color="white"><h2> Registration Page</h2></font>
 
 <!-- Registration Form -->
-<form name=registerForm action=Registration
-onsubmit="return validateForm()" method="post">
-User Name:<input type=text name=userName><br>
-Email Id:<input type=text name=emailId><br>
-Password:<input type=text name=password><br>
-<input type=submit value=Register><br> 
+<div class="container">
+<form name=registerForm action=Registration onsubmit="return validateForm()" method="post">
+<font color="white">User Name:<input type=text name=userName></font><br>
+<font color="white">Email Id:<input type=text name=emailId></font><br>
+<font color="white">Password:<input type=text name=password></font><br>
+<button type=submit>Register</button><br> 
 
 </form>
 <br>
 <br>
-
+</div>
 </body>
 </html>

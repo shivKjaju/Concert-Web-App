@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
 <title>Login Page</title>
 <script>
 function validateForm() {
@@ -22,16 +23,17 @@ function validateForm() {
 </script>
 </head>
 <body>
-<h2> Login Page </h2>
+<font color="white"><h2> Login Page </h2></font>
 
 
 <!-- Actual Form -->
-<form name="userForm" action=Login
-      onsubmit="return validateForm()" method="post">
-User Name: <input type=text  name=userName><br>
-Password: <input type=text  name=password><br>
-<input type=submit value=Login><br>
+<div class="container">
+<form name="userForm" action=Login onsubmit="return validateForm()" method="post">
+<font color="white">User Name: <input type=text name=userName ></font><br>
+<font color="white">Password: <input type=text  name=password></font><br>
+<font color="white"><button type="submit">Login</button></font><br>
 </form>
+</div>
 
 
 <!-- Navigation link = Registration Page -->
