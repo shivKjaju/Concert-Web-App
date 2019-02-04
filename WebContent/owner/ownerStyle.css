@@ -1,0 +1,16 @@
+#Desk h5{
+	color: black;
+}
+
+#Desk p{
+	color: black;
+}
+
+.container-fluid .jumbotron-fluid{
+	text-align: center;
+	padding: 4%;
+}
+
+.container-fluid{
+	padding: 4%;
+}
