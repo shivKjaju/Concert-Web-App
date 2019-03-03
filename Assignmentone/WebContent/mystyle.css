@@ -2,7 +2,7 @@
 
 body {
   /*background-color: black;*/
-  background-image: url("space.gif");
+  background-image: url("images/space.gif");
 }
 
 button {
@@ -22,7 +22,6 @@ button:hover {
 .container {
   padding: 50px;
 }
-
 
 
 .container{
